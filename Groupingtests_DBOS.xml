@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name= "DBOS Test Suite" >  
+<listeners>
+	<listener class-name="utilities.ExtentReportManager"/>
+</listeners>
+	<test name="DBOSTests">
+		
+		<groups>
+			<run>
+				<include name="sanity"/>
+			</run>
+		</groups>
+	
+	
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name ="testCases.TC_001_AccountLogin"/> 
+			<class name ="testCases.TC_002_LoginDDT"/>
+			
+		</classes>
+	</test>
+	
+	
+</suite>

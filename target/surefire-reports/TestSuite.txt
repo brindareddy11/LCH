@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.014 s <<< FAILURE! - in TestSuite
+testCases.TC_001_AccountLogin.test_account_Login  Time elapsed: 0.215 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=90.0.4430.212)
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'WL302167', ip: '192.168.1.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c8630f9b8c4cb4d83bc7746e9ef207dd, get {url=https://b1-int.dbos.lchs.test.cubic-hub.com:8443/solstice/view/BssAccountView?appID=1622729554496}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\202183\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59056}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c8630f9b8c4cb4d83bc7746e9ef207dd
+	at testCases.TC_001_AccountLogin.test_account_Login(TC_001_AccountLogin.java:30)
+

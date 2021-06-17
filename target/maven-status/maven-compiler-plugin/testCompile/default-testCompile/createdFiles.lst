@@ -1,0 +1,7 @@
+utilities\XLUtils.class
+utilities\ExtentReportManager.class
+testCases\TC_001_AccountLogin.class
+pageObjects\ConsoleLoginPage.class
+testBase\BaseClass.class
+testCases\TC_002_LoginDDT.class
+pageObjects\DashboardPage.class
